@@ -1,0 +1,160 @@
+
+.contact-section {
+  min-height: 90vh;
+  padding: 110px 9% 30px;
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(229, 9, 20, 0.13), transparent 55%),
+    #080808;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  scroll-margin-top: 80px;
+}
+
+.contact-content {
+  max-width: 850px;
+  width: 100%;
+  margin: 30px auto 100px;
+  text-align: center;
+}
+
+.contact-eyebrow {
+  color: #e50914;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+}
+
+.contact-content h2 {
+  font-size: clamp(40px, 7vw, 85px);
+  line-height: 1.08;
+  letter-spacing: -2px;
+  margin-bottom: 25px;
+}
+
+.contact-content h2 span {
+  color: #e50914;
+}
+
+.contact-description {
+  max-width: 550px;
+  margin: 0 auto 35px;
+  color: #aaa;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.contact-email-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 30px;
+  background: #e50914;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+.contact-email-button:hover {
+  background: #b80710;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(229, 9, 20, 0.25);
+}
+
+.contact-email-button span {
+  font-size: 20px;
+}
+
+.contact-socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 65px;
+}
+
+.contact-socials a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 17px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 12px;
+  transition: 0.3s ease;
+}
+
+.contact-socials a:hover {
+  color: #fff;
+  border-color: #e50914;
+  background: rgba(229, 9, 20, 0.08);
+}
+
+.social-icon {
+  color: #e50914;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.social-arrow {
+  color: #777;
+}
+
+.portfolio-footer {
+  border-top: 1px solid #292929;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.footer-logo span {
+  color: #e50914;
+}
+
+.portfolio-footer p {
+  color: #777;
+  font-size: 11px;
+}
+
+@media (max-width: 650px) {
+  .contact-section {
+    padding: 85px 6% 20px;
+  }
+
+  .contact-content {
+    margin-bottom: 70px;
+  }
+
+  .contact-content h2 {
+    letter-spacing: -1px;
+  }
+
+  .contact-socials {
+    gap: 10px;
+    margin-top: 45px;
+  }
+
+  .portfolio-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
